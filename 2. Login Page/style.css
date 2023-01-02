@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.container{
+    background-color: white;
+    width: max-content;
+    padding: 20px 80px 50px 100px;
+    margin: 30px 30px 10px 450px;
+    border-radius: 20px;
+}
+.logo{
+    margin-left: 100px;
+}
+h1{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+#google{
+    float: left;
+    padding-left: 20px;
+}
+#apple{
+    clear: left;
+    float: left;
+    padding-left: 20px;
+}
+.block{
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(99, 89, 89, 0.479);
+    border-radius: 20px;
+    text-align: center;
+}
+#footer{
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+input{
+    width: 260px;
+    height: 50px;
+    margin: 20px 15px 20px 5px;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    border-radius: 3px;
+    font-size: 14px;
+}
+#next{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+#tgoogle{
+    font-size: 14px;
+    font-weight: 500;
+}
+#tapple{
+    font-size:16px;
+    font-weight: 600;
+}
+.header_center{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+}
+.header_center::before,
+.header_center::after{
+    content: "";
+    display: block;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.copyright{
+    text-align: center;
+}
