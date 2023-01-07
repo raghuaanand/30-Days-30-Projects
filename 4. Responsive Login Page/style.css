@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(170, 81, 81, 0.342);
+}
+.container {
+  backdrop-filter: blur(10px);
+  background: rgba(214, 128, 128, 0.281);
+  width: 250px;
+  height: 100%;
+  border-radius: 15px;
+  padding: 20px 40px 20px 40px;
+  margin: 180px auto;
+  box-shadow: 2px 2px 10px rgba(192, 32, 32, 0.596);
+}
+.container:hover {
+  box-shadow: 2px 2px 10px rgba(221, 27, 27, 0.884);
+}
+.header {
+  text-align: center;
+  font-family: calibri;
+  padding-bottom: 20px;
+}
+.block {
+  padding-bottom: 8px;
+}
+input {
+  padding: 7px;
+  background: rgba(250, 250, 250, 0.288);
+  border: 1px solid rgba(37, 36, 36, 0.342);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(214, 25, 25, 0.486);
+}
+.submit {
+  margin-left: 60px;
+  padding: 8px 7px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgba(38, 175, 175, 0.774);
+  color: rgba(255, 253, 253, 0.952);
+  font-weight: bold;
+  box-shadow: 1px 1px 5px rgba(28, 75, 206, 0.685);
+  letter-spacing: 0.7px;
+}
+input:hover {
+  background: white;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(202, 18, 18, 0.911);
+  transform: scale(1.2);
+}
+.submit:hover {
+  background: rgba(190, 30, 30, 0.425);
+  cursor: pointer;
+  transition: background 0s linear;
+  box-shadow: 2px 2px 5px rgb(196, 19, 19);
+}
+
