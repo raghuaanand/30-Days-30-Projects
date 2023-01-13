@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram - Login</title>
+
+    <!-- CSS -->
+
     <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <div class="container" id="one">
+    <!-- awesome font icons -->
+
+    <script
+      src="https://kit.fontawesome.com/8b602ded6e.js"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="input-form">
         <div class="header">
-            <header>
-                <h1>Instagram</h1>
-            </header>
+          <h1>Instagram</h1>
         </div>
-        <div class="main">
-            <main>
-                <form>
-                    <div class="block">
-                        <input type="text" placeholder="Phone number, username, or email">
-                    </div>
-                    <div class="block">
-                        <input type="password" id="i_password" placeholder="Password">
-                    </div>
-                    <div class="block">
-                        <a href="https://www.instagram.com/accounts/login/" id="Log_in">Log in</a>
-                    </div>
-                </form>
-                <div class="header_center">OR</div>
-            </main>
+        <div class="username">
+          <input
+            type="text, email"
+            placeholder="Phone number, username, or email"
+          />
         </div>
-        <div class="footer">
-
-            <div class="enter">
-                <div class="fb_logo">
-                    <img src="./Facebook Logo.png" alt="Facebook Logo" width="25px">
-                </div>
-
-                <div class="fb_login">
-                    <a
-                        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25224ei5tlbs5kwq1tff3ynubdsk158laht1op37yxsehtt91bunoza%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_GB%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D137cb152-7c28-444e-af6d-41b034f61e51%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25224ei5tlbs5kwq1tff3ynubdsk158laht1op37yxsehtt91bunoza%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=hi_IN&pl_dbl=0">
-                        <p>Login with Facebook</p>
-                    </a>
-                </div>
-            </div>
-
-            <div class="forgot_pass">
-                <a href="https://www.instagram.com/accounts/password/reset/">
-                    <p>Forgotten your password?</p>
-                </a>
-            </div>
+        <div class="password">
+          <input type="password" placeholder="Password" />
         </div>
+        <div class="button">
+          <button>Log in</button>
+        </div>
+        <div class="facebook-login">
+          <i class="fa-brands fa-square-facebook"></i>
+          <p>Log in with Facebbok</p>
+        </div>
+        <div class="forgot-password">
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
     </div>
-    <div class="container" id="two">
-        <div>
-            <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/" id="signup">Sign up</a>
-            </p>
-        </div>
+    <div class="center-container">
+      <div class="sign-up">
+        <p>Don't have an accaount? <a href="#">Sign up</a></p>
+      </div>
     </div>
-</body>
-
+    <div class="footer-container">
+      <div>
+        <p>
+          Get the app
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
