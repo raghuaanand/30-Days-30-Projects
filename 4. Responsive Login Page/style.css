@@ -4,24 +4,76 @@
   box-sizing: border-box;
 }
 body {
-  background: rgba(170, 81, 81, 0.342);
+  background: url(./LoginPageBackground.jpg);
 }
 .container {
-  backdrop-filter: blur(10px);
-  background: rgba(214, 128, 128, 0.281);
-  width: 250px;
+  /* From https://css.glass */
+  background-size: cover; /*covers full area even if it suffers the image quality  */
+  width: 265px;
   height: 100%;
-  border-radius: 15px;
   padding: 20px 40px 20px 40px;
   margin: 180px auto;
-  box-shadow: 2px 2px 10px rgba(192, 32, 32, 0.596);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
 }
 .container:hover {
-  box-shadow: 2px 2px 10px rgba(221, 27, 27, 0.884);
+  box-shadow: 2px 2px 10px rgba(12, 12, 12, 0.884);
+}
+.flex-container {
+  display: flex; /* Next three line starting from here is used for styling the icons vertically */
+  flex-direction: row;
+  justify-content: center;
+  font-size: 32px;
+  /* transform: translateY(-40px); */
+}
+.twitter {
+  margin-right: 20px;
+  color: rgb(19, 172, 233);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.29);
+}
+.twitter:hover{
+  box-shadow: 2px 2px 10px rgba(12, 12, 12, 0.884);
+}
+.linkedin {
+  margin-right: 20px;
+  color: rgba(5, 31, 145, 0.74);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.29);
+}
+.linkedin:hover{
+  box-shadow: 2px 2px 10px rgba(12, 12, 12, 0.884);
+}
+.github {
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.29);
+}
+.github:hover{
+  box-shadow: 2px 2px 10px rgba(12, 12, 12, 0.884);
+}
+.codepen {
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.29);
+}
+.codepen:hover{
+  box-shadow: 2px 2px 10px rgba(12, 12, 12, 0.884);
 }
 .header {
   text-align: center;
   font-family: calibri;
+  margin-top: 15px;
+  font-size: 25px;
+  color: rgba(14, 13, 13, 0.952);
   padding-bottom: 20px;
 }
 .block {
@@ -29,10 +81,10 @@ body {
 }
 input {
   padding: 7px;
-  background: rgba(250, 250, 250, 0.288);
+  background: rgb(233, 229, 229);
   border: 1px solid rgba(37, 36, 36, 0.342);
   border-radius: 5px;
-  box-shadow: 1px 1px 5px rgba(214, 25, 25, 0.486);
+  /* box-shadow: 1px 1px 5px rgba(214, 25, 25, 0.486); */
 }
 .submit {
   margin-left: 60px;
@@ -40,7 +92,7 @@ input {
   border: 0px;
   border-radius: 5px;
   margin-top: 10px;
-  background-color: rgba(38, 175, 175, 0.774);
+  background-color: rgba(25, 212, 212, 0.774);
   color: rgba(255, 253, 253, 0.952);
   font-weight: bold;
   box-shadow: 1px 1px 5px rgba(28, 75, 206, 0.685);
@@ -49,13 +101,12 @@ input {
 input:hover {
   background: white;
   border: none;
-  box-shadow: 1px 1px 5px rgba(202, 18, 18, 0.911);
+  /* box-shadow: 1px 1px 5px rgba(202, 18, 18, 0.911); */
   transform: scale(1.2);
 }
 .submit:hover {
-  background: rgba(190, 30, 30, 0.425);
+  background: rgba(30, 158, 190, 0.425);
   cursor: pointer;
   transition: background 0s linear;
-  box-shadow: 2px 2px 5px rgb(196, 19, 19);
+  /* box-shadow: 2px 2px 5px rgb(196, 19, 19); */
 }
-
