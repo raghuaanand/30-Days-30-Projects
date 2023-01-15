@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- fonts -->
-    <script src="https://kit.fontawesome.com/8b602ded6e.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <main class="container">
-      
-      <div class="header">
-        <h3>Login</h3>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- awesome fonts icon -->
+
+  <script src="https://kit.fontawesome.com/8b602ded6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="container">
+    <div class="flex-container">
+      <div class="twitter">
+        <i class="fa-brands fa-twitter"></i>
       </div>
-      <form action="">
-        <div class="block username">
-          <input type="email" placeholder="example@gmail.com" required />
-        </div>
-        <div class="block password">
-          <input
-            type="password"
-            placeholder="password"
-            required
-            minlength="8"
-          />
-        </div>
-        <div class="block button">
-          <input type="submit" class="submit" />
-        </div>
-      </form>
-    </main>
-  </body>
+      <div class="linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <div class="github">
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="codepen">
+        <i class="fa-brands fa-codepen"></i>
+      </div>
+    </div>
+    <div class="header">
+      <h3>Login</h3>
+    </div>
+    <form action="">
+      <div class="block username">
+        <input type="email" placeholder="example@gmail.com" required />
+      </div>
+      <div class="block password">
+        <input type="password" placeholder="Password" required minlength="8" />
+      </div>
+      <div class="block button">
+        <input type="submit" class="submit" />
+      </div>
+    </form>
+  </main>
+</body>
+
 </html>
