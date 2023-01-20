@@ -13,8 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -25,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/raghuaanand/QR-Code-Component/tree/main/QR%20Code%20Component)
-- Live Site URL: [Add live site URL here](https://raghuaanand.github.io/QR-Code-Component/)
+- Live Site URL: [Add live site URL here](https://raghuaanand-qrcode.netlify.app/)
 
 ## My process
 
