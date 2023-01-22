@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/raghuaanand/30-Days-30-Projects/tree/main/10.%20Product%20Review%20Card)
+- Live Site URL: [Add live site URL here](https://raghu-product-review-card.netlify.app/)
 
 ## My process
 
