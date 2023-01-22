@@ -1,0 +1,110 @@
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--Cream);
+    min-height: 100vh;
+}
+.desktop-img{
+    display: none;
+}
+.card{
+    background: var(--White);
+    display: flex;
+    max-width: 310px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 18px auto;
+}
+.mobile-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-text{
+    padding: 18px;
+}
+.perfume{
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    margin: 10px 0px;
+    color: var(--Very-dark-blue);
+}
+.card-para{
+    color: var(--Dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+}
+button{
+    display: block;
+    min-width: 100%;
+    background: var(--Dark-cyan);
+    color: var(--White);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.cart-img{
+    padding-right: 10px;
+    transform: translateY(3px);
+}
+.price{
+    margin: 15px 0;
+}
+.new-price{
+    font-size: 2rem;
+    color: var(--Dark-cyan);font-family: 'Fraunces', serif;
+    
+}
+.old-price{
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+}
+@media screen and (min-width: 550px) {
+    .card{
+        /* border: 5px solid red; */
+        display: flex;
+        flex-direction: row;
+        max-width: 480px;
+        margin:20vh auto;
+    }
+    .mobile-img{
+        display: none;
+    }
+    .desktop-img{
+        display: flex;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        max-width: 50%;
+        max-height: 100vh;
+    }
+    h1{
+        padding-right: 20px;
+    }
+    
+}
