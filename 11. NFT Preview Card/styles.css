@@ -1,0 +1,79 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --Very-dark-blue-Card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --font-size: 1.125rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--Very-dark-blue-main-BG);
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+.card {
+  min-height: fit-content;
+  max-width: 300px;
+  background: var(--Very-dark-blue-Card-BG);
+  border-radius: 15px;
+  padding: 23px;
+  margin: 9vh auto;
+}
+.equilibrium {
+  border-radius: 15px;
+  max-width: 100%;
+  display: flex;
+}
+h3 {
+  margin-top: 20px;
+  color: var(--White);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.paragraph {
+  color: var(--Soft-blue);
+  font-size: 14px;
+  padding: 15px 0px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+.eth-info{
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.eth-text{
+  color: var(--Cyan);
+  padding-left: 7px;
+}
+.clock-icon{
+  transform: translateX(93px);
+}
+.days-rem{
+  transform: translateX(100px);
+  color: var(--Soft-blue);
+}
+.footer{
+  border-top: 1.5px solid var(--Very-dark-blue-line);
+  display: flex;
+  padding-top: 15px;
+}
+.avatar{
+  max-width: 35px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+.credits{
+  color: var(--Soft-blue);
+  transform: translate(10px,6px);
+}
+strong{
+  color: var(--White);
+}
