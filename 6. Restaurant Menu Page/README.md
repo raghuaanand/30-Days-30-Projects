@@ -1,1 +1,0 @@
-Bootstrap framework is used to build thid project.
