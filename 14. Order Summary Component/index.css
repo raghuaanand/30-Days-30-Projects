@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+  --pale_blue: hsl(225, 100%, 94%);
+  --bright_blue: hsl(245, 75%, 52%);
+  --very_pale_blue: hsl(225, 100%, 98%);
+  --desaturated_blue: hsl(224, 23%, 55%);
+  --dark_blue: hsl(223, 47%, 23%);
+  --white: hsl(255, 100%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--pale_blue);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.order-summary-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    border-radius: 1rem;
+    max-width: min-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.hero-image{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 100%;
+}
+.info-section{
+    text-align: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 75%;
+}
+h2{
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+p{
+    color: var(--desaturated_blue);
+}
+.sub-section{
+    background: var(--very_pale_blue);
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0 1.2rem;
+    margin-bottom: 1rem;
+
+}
+.sub-text>p{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 0.7rem;
+}
+.bold{
+    font-weight: 700;
+    color: var(--dark_blue);
+}
+a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+button{
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-weight: 900;
+}
+button:hover{
+    cursor: pointer;
+}
+.payment-btn{
+    background: var(--bright_blue);
+    color: var(--pale_blue);
+}
+.payment-btn:hover{
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.cancel-btn{
+    background: var(--white);
+    color: var(--desaturated_blue);
+}
+.cancel-btn:hover{
+    color: var(--dark_blue);
+}
+@media screen and (max-width:440px){
+    body{
+        background: url(pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
+    .order-summary-card{
+        max-width: 80%;
+    }
+}
