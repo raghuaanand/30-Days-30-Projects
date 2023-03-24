@@ -1,0 +1,58 @@
+:root {
+  /* primary colors */
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+  /* gradients */
+  --Light-slate-blue: hsl(252, 100%, 67%); /* background */
+  --Light-royal-blue: hsl(241, 81%, 54%); /* background */
+  --Violet-blue: hsla(256, 72%, 46%, 1); /* circle */
+  --Persian-blue: hsla(241, 72%, 46%, 0); /* circle */
+  /* neutral */
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+  /* font size */
+  --font-size: 1.125rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    background: var(--White);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 1.5rem;
+}
+
+.left-side{
+    background: var(--Light-royal-blue);
+    border-radius: 1.5rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characteristics{
+    display: flex;
+}
+
