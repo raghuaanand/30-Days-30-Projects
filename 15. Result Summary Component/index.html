@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-  <!-- linkning the style sheet -->
-  <link rel="stylesheet" href="index.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- linkning the style sheet -->
+    <link rel="stylesheet" href="index.css" />
 
-</head>
-<body>
-  <main class="card-container">
-    <section class="left-side">
-      <h1>Your Result</h1>
-      <p id="marks"><span>76</span> of 100</p>
-      <p class="remarks">Great</p>
-      <p class="facts">  You scored higher than 65% of the people who have taken these tests.
-      </p>
-    </section>
-    <section class="right-side">
-      <h1>Summary</h1>
-      <section class="characteristics" id="reaction">
-        <img src="./images/icon-reaction.svg" alt="reaction icon">
-        <p class="reaction">Reaction</p>
-        <p class="result"><strong>80</strong>/100</p>
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="card-container">
+      <section class="left-side">
+        <h1>Your Result</h1>
+        <p id="marks"><strong>76</strong> of 100</p>
+        <p class="remarks">Great</p>
+        <p class="facts">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
       </section>
-      <section class="characteristics" id="memory">
-        <img src="./images/icon-memory.svg" alt="memory icon">
-        <p class="memory">Memory</p>
-        <p class="result"><strong>92</strong>/100</p>
+      <section class="right-side">
+        <h1>Summary</h1>
+        <section class="characteristics" id="reaction">
+          <img src="./images/icon-reaction.svg" alt="reaction icon" />
+          <p class="reaction">Reaction</p>
+          <p class="result"><strong>80</strong>/100</p>
+        </section>
+        <section class="characteristics" id="memory">
+          <img src="./images/icon-memory.svg" alt="memory icon" />
+          <p class="memory">Memory</p>
+          <p class="result"><strong>92</strong>/100</p>
+        </section>
+        <section class="characteristics" id="verbal">
+          <img src="./images/icon-verbal.svg" alt="verbal icon" />
+          <p class="verbal">Verbal</p>
+          <p class="result"><strong>61</strong>/100</p>
+        </section>
+        <section class="characteristics" id="visual">
+          <img src="./images/icon-visual.svg" alt="visual icon" />
+          <p class="visual">Visual</p>
+          <p class="result"><strong>72</strong>/100</p>
+        </section>
+        <button>Continue</button>
       </section>
-      <section class="characteristics" id="verbal">
-        <img src="./images/icon-verbal.svg" alt="verbal icon">
-        <p class="verbal">Verbal</p>
-        <p class="result"><strong>61</strong>/100</p>
-      </section>
-      <section class="characteristics" id="visual">
-        <img src="./images/icon-visual.svg" alt="visual icon">
-        <p class="visual">Visual</p>
-        <p class="result"><strong>72</strong>/100</p>
-      </section>
-      <button>Continue</button>
-    </section>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
