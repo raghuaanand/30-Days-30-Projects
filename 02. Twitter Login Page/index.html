@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log in to Twitter</title>
+  <link rel="stylesheet" href="/index.css" />
+  <link rel="icon" type="img/png" href="/Images/twitter.ico" />
+  <script src="https://kit.fontawesome.com/8b602ded6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gray-400 flex items-center justify-center">
+  <div class="container bg-white w-[40%] flex flex-col rounded-xl px-[10%] mt-[10%] relative">
+    <i class="fa-brands fa-twitter my-4 py-4 " style="color: #129fce"></i>
+    <h1 class="font-semibold text-4xl">Sign in to Twitter</h1>
+
+    <!-- sign in with google -->
+
+    <button class="flex justify-center border-2 border-gray-300 h-10 rounded-3xl mt-3">
+      <img src="/Images/google.ico" alt="google" />
+      <p>Sign in with Google</p>
+    </button>
+
+    <!-- sign in with apple -->
+    <button class="flex justify-center border-2 border-gray-300 h-10 rounded-3xl mt-3">
+      <i class="fa-brands fa-apple text-2xl" style="color: #050505"></i>
+      <strong>Sign in with Apple</strong>
+    </button>
+    <hr class="m-6" />
+
+    <!-- username, email, phone -->
+
+
+      <input type="text" id="email" class="border-2 border-gray-300 mt-4 h-16 pl-4 focus:outline-sky-500"
+        placeholder="Phone, email, or username" />
+
+    <button class="bg-black text-white my-4 hover:bg-gray-800 h-8 rounded-3xl">
+      Next
+    </button>
+    <span
+      class="mb-4 hover:bg-gray-200 h-8 rounded-3xl flex items-center justify-center border-2 border-gray-300 font-semibold">Forgot
+      password?</span>
+    <span class="my-5">Don't have an account?
+      <span class="text-sky-500 cursor-pointer hover:underline">Sign up</span></span>
+  </div>
+</body>
+
+</html>
